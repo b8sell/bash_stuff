@@ -1,0 +1,3 @@
+ftxt() {
+  find . -type f -exec grep "$@" {} /dev/null \;
+}
