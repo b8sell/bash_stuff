@@ -1,0 +1,4 @@
+# gert remote git target
+gurl() {
+  git config --get remote.origin.url
+}

@@ -1,0 +1,4 @@
+# create a text file with today's timestamp and open with vi
+vit() {
+  vi "$(date "+%Y%m%d%H%M").txt"
+}
